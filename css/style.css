@@ -266,7 +266,8 @@ body {
   .content-absolute {
     max-width: 990px;
     margin: 0 auto;
-    margin-top: -25px;
+    margin-top: -26px;
+    margin-bottom: 3px;
   }
 
   .text-content-cta {

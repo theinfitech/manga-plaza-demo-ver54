@@ -52,7 +52,7 @@ body {
 
 .text-absolute {
   margin: 0 auto;
-  margin-top: 1px;
+  margin-top: -1px;
   font-family: Roboto;
 }
 
@@ -255,6 +255,12 @@ body {
 }
 
 @media (min-width:991px) {
+  .text-absolute {
+    margin: 0 auto;
+    margin-top: 1px;
+    font-family: Roboto;
+  }
+
   .layout {
     font-size: 69px;
   }
@@ -370,13 +376,15 @@ body {
   }
 
 }
+
 @media only screen and (max-width: 989px) {
   .content-absolute {
     width: 100%;
     margin-top: -10px;
     position: absolute !important;
   }
-  .layout-cta{
+
+  .layout-cta {
     margin-top: 13px
   }
 }

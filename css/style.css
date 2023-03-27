@@ -257,7 +257,7 @@ body {
 @media (min-width:991px) {
   .text-absolute {
     margin: 0 auto;
-    margin-top: 1px;
+    margin-top: 2px;
     font-family: Roboto;
   }
 
@@ -380,7 +380,7 @@ body {
 @media only screen and (max-width: 989px) {
   .content-absolute {
     width: 100%;
-    margin-top: -10px;
+    margin-top: -8px;
     position: absolute !important;
   }
 

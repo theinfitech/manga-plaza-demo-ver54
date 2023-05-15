@@ -23,10 +23,6 @@ body {
   margin: auto;
 }
 
-.box-razzmatazz {
-  margin-top: -15px;
-}
-
 .image1 {
   margin-top: -15px;
 }
@@ -261,6 +257,10 @@ body {
 }
 
 @media (min-width:991px) {
+  .box-razzmatazz {
+    margin-top: -15px;
+  }
+  
   .text-absolute {
     margin: 0 auto;
     margin-top: 2px;

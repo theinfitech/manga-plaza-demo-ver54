@@ -24,7 +24,7 @@ body {
 .image-top2 {
   display: block;
   margin: auto;
-  margin-top: -10px;
+  margin-top: -15px;
 }
 
 .image1 {
@@ -58,7 +58,7 @@ body {
 
 .text-absolute {
   margin: 0 auto;
-  margin-top: -1px;
+  margin-top: 1px;
   font-family: Roboto;
 }
 
@@ -284,6 +284,7 @@ body {
     margin: 0 auto;
     margin-top: -25px;
     margin-bottom: -9px;
+    position: absolute !important;
   }
 
   .text-content-cta {
@@ -391,8 +392,6 @@ body {
   .content-absolute {
     width: 100%;
     margin-top: -9px;
-    position: absolute !important;
-    /* position: absolute !important; */
   }
 
   .layout-cta {

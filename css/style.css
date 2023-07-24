@@ -27,10 +27,6 @@ body {
   margin-top: -15px;
 }
 
-.image1 {
-  margin-top: -15px;
-}
-
 .image-cover {
   width: 80%;
   margin: auto;
@@ -274,7 +270,9 @@ body {
   .layout {
     font-size: 69px;
   }
-
+  .image1 {
+    margin-top: 15px !important;
+  }
   .image-content {
     margin-bottom: 15px !important;
   }

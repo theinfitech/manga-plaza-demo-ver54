@@ -391,6 +391,9 @@ body {
     width: 100%;
     margin-top: -9px;
   }
+  .image1{
+    margin-top: 10px;
+  }
 
   .layout-cta {
     margin-top: 13px

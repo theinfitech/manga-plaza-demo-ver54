@@ -18,9 +18,13 @@ body {
 }
 
 .image-top {
-  width: 74%;
   display: block;
   margin: auto;
+}
+.image-top2 {
+  display: block;
+  margin: auto;
+  margin-top: -10px;
 }
 
 .image1 {
@@ -278,8 +282,8 @@ body {
   .content-absolute {
     max-width: 990px;
     margin: 0 auto;
-    margin-top: -26px;
-    margin-bottom: 3px;
+    margin-top: -25px;
+    margin-bottom: -9px;
   }
 
   .text-content-cta {
@@ -386,8 +390,9 @@ body {
 @media only screen and (max-width: 989px) {
   .content-absolute {
     width: 100%;
-    margin-top: -8px;
+    margin-top: -9px;
     position: absolute !important;
+    /* position: absolute !important; */
   }
 
   .layout-cta {

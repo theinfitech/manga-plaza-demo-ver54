@@ -18,6 +18,7 @@ body {
 }
 
 .image-top {
+  width: 80%;
   display: block;
   margin: auto;
 }
@@ -397,5 +398,16 @@ body {
 
   .layout-cta {
     margin-top: 13px
+  }
+}
+@media (max-width:376px) {
+  .image-top{
+    width: 90%;
+  }
+}
+
+@media (max-width:360px) {
+  .image-top{
+    width: 62%;
   }
 }

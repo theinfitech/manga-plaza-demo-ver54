@@ -6,12 +6,6 @@ body {
   max-width: 990px;
 }
 
-.logo{
-  display: flex;
-  width: 100%;
-  justify-content: center;
-}
-
 .layout-content {
   text-align: center;
   margin: 0 auto;
@@ -24,13 +18,12 @@ body {
 }
 
 .image-top {
-  width: 80%;
+  width: 79%;
   display: block;
   margin: auto;
 }
-.image-top2 {
-  display: block;
-  margin: auto;
+
+.image1 {
   margin-top: -15px;
 }
 
@@ -61,7 +54,7 @@ body {
 
 .text-absolute {
   margin: 0 auto;
-  margin-top: 1px;
+  margin-top: -1px;
   font-family: Roboto;
 }
 
@@ -277,9 +270,7 @@ body {
   .layout {
     font-size: 69px;
   }
-  .image1 {
-    margin-top: 15px !important;
-  }
+
   .image-content {
     margin-bottom: 15px !important;
   }
@@ -287,9 +278,8 @@ body {
   .content-absolute {
     max-width: 990px;
     margin: 0 auto;
-    margin-top: -25px;
-    margin-bottom: -9px;
-    position: absolute !important;
+    margin-top: -26px;
+    margin-bottom: 3px;
   }
 
   .text-content-cta {
@@ -396,25 +386,11 @@ body {
 @media only screen and (max-width: 989px) {
   .content-absolute {
     width: 100%;
-    margin-top: -9px;
-    padding-bottom: 13px;
-  }
-  .image1{
-    margin-top: 10px;
+    margin-top: -8px;
+    position: absolute !important;
   }
 
   .layout-cta {
     margin-top: 13px
-  }
-}
-@media (max-width:376px) {
-  .image-top{
-    width: 90%;
-  }
-}
-
-@media (max-width:360px) {
-  .image-top{
-    width: 62%;
   }
 }

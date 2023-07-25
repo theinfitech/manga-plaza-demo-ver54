@@ -386,7 +386,7 @@ body {
 @media only screen and (max-width: 989px) {
   .content-absolute {
     width: 100%;
-    margin-top: -8px;
+    margin-top: -9px;
     position: absolute !important;
   }
 

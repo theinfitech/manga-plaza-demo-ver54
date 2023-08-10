@@ -393,3 +393,9 @@ body {
     margin-top: 13px
   }
 }
+
+@media only screen and (max-width: 400px) {
+  .image-top {
+    width: 86%;
+  }
+}

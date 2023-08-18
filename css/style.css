@@ -52,7 +52,7 @@ body {
 
 .text-absolute {
   margin: 0 auto;
-  margin-top: -1px;
+  margin-top: 1.5px;
   font-family: Roboto;
 }
 

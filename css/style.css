@@ -52,7 +52,7 @@ body {
 
 .text-absolute {
   margin: 0 auto;
-  margin-top: 1.5px;
+  margin-top: 3.5px;
   font-family: Roboto;
 }
 
@@ -261,7 +261,7 @@ body {
   
   .text-absolute {
     margin: 0 auto;
-    margin-top: 0.5px;
+    margin-top: 2.5px;
     font-family: Roboto;
   }
 
@@ -384,23 +384,11 @@ body {
 @media only screen and (max-width: 989px) {
   .content-absolute {
     width: 100%;
-    margin-top: -13px;
+    margin-top: -12.5px;
     position: absolute !important;
   }
 
   .layout-cta {
     margin-top: 13px
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  .image-top {
-    width: 76%;
-  }
-}
-
-@media only screen and (max-width: 412px) {
-  .image-top {
-    width: 69%;
   }
 }

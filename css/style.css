@@ -18,7 +18,6 @@ body {
 }
 
 .image-top {
-  width: 57%;
   display: block;
   margin: auto;
 }
@@ -392,11 +391,5 @@ body {
 
   .layout-cta {
     margin-top: 13px
-  }
-}
-
-@media only screen and (max-width: 365px) {
-  .image-top {
-    width: 42.5%;
   }
 }

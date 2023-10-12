@@ -33,9 +33,11 @@ body {
 
 .image-cover {
   width: 75%;
-  margin: auto;
+  margin: 0 auto;
 }
-
+.full-image {
+  text-align: center;
+}
 .content-absolute {
   width: 100%;
   padding: 10px 0 12px 0;
@@ -55,7 +57,14 @@ body {
   font-size: 10.5px;
   font-family: Roboto;
 }
-
+.name-tag{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: end;
+  font-size: 12px;
+  margin-bottom: 3px;
+}
 .text-absolute {
   margin: 0 auto;
   margin-top: 1px;
@@ -389,10 +398,6 @@ body {
     width: 100%;
     margin-top: -11.5px;
     position: absolute !important;
-  }
-
-  .layout-cta {
-    margin-top: 13px;
   }
 }
 

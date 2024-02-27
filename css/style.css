@@ -22,6 +22,10 @@ body {
   margin-bottom: 10px;
 }
 
+.logo {
+  margin-bottom: 200px;
+}
+
 .image-top {
   display: block;
   margin: auto;
@@ -56,7 +60,7 @@ body {
   font-weight: 300;
   color: #000;
   font-size: 10.5px;
-  font-family: Roboto;
+  font-family: system-ui;
 }
 .name-tag {
   display: flex;
@@ -73,24 +77,30 @@ body {
 .text-absolute {
   margin: 0 auto;
   margin-top: 1px;
-  font-family: Roboto;
+  font-family: system-ui;
+}
+
+.child-layout-footer {
+  background-color: white;
+  color: #000;
+  padding-top: 20px;
+  padding-bottom: 25px;
 }
 
 .layout-cta {
-  background-image: url(../img/background.png);
   padding-bottom: 19vw;
   background-size: cover;
 }
 
 .text-content-cta {
-  font-style: italic;
+  font-style: normal;
   font-weight: 700;
-  font-family: Roboto;
+  font-family: system-ui;
   text-shadow: -0.2vw 0 #fff, 0 0.4vw #fff, 0.4vw 0 #fff, 0 -0.2vw #fff;
 }
 
 .layout {
-  font-family: Roboto;
+  font-family: system-ui;
   font-style: italic;
   text-align: center;
   font-size: 6.95vw;
@@ -114,7 +124,7 @@ body {
 
 .text-italic-bold {
   color: #ffa903;
-  font-style: italic;
+  font-style: nomal;
   font-weight: 700;
   font-family: Roboto;
 }
@@ -132,16 +142,27 @@ body {
   text-align: center;
   font-size: 4.5334vw;
   color: #ffffff;
-  background-image: url(../img/backgroundFooter.png);
   background-size: cover;
   font-family: Roboto;
   max-width: 990px;
+  font-size: 45px !important;
+  max-width: 990px !important;
+  padding-bottom: 350px;
 }
 
 .text-content-footer {
   font-family: Roboto;
   font-weight: 700;
   font-style: normal;
+}
+
+.text-content-sub-footer {
+  font-family: Roboto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 35px;
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
 }
 
 .text-bold-footer {
@@ -160,18 +181,19 @@ body {
   position: relative;
   cursor: pointer;
   display: block;
-  margin: 40px auto 0;
+  margin: 10px auto 0;
   color: #fff;
   font-size: 1.5em;
   transition: 0.3s;
   height: 12.8vw;
   border-radius: 15px;
-  width: 67.4vw;
+  width: 49.4vw;
 }
 
 .btn-root {
-  margin-bottom: 14.8vw;
-  margin-top: 11.737vw;
+  margin-bottom: 1.8vw;
+  margin-top: 2.263vw;
+  height: 12vh;
 }
 
 .btn-root:hover .btn {
@@ -184,18 +206,6 @@ body {
 .image-btn {
   height: 12.8vw;
   z-index: 100;
-}
-
-.btnBack {
-  transition: all 0.3s;
-  background-color: #eac4d7;
-  height: 12.8vw;
-  width: 100%;
-  position: absolute;
-  z-index: 5;
-  margin-left: 5px;
-  border-radius: 2.55vw;
-  margin-top: 5px;
 }
 
 .btn-top {
@@ -218,15 +228,14 @@ body {
 }
 
 .image-logo {
-  padding-top: 10.14vw;
-  margin-bottom: 4.55vw;
-  width: 45.34vw;
+  margin-top: 5px;
+  width: 17.34vw;
 }
 
-.btn-root-footer {
+/* .btn-root-footer {
   margin-bottom: 13.34vw;
-  margin-top: 18.135vw;
-}
+  margin-top: 9.135vw;
+} */
 
 .swiper-container {
   height: 30.54vw;
@@ -298,36 +307,19 @@ body {
     margin-bottom: 3px;
   }
 
-  .text-content-cta {
-    text-shadow: -2px 0 #fff, 0 4px #fff, 4px 0 #fff, 0 -2px #fff;
-  }
-
-  .layout-cta {
-    padding-bottom: 188px !important;
-  }
-
-  .content-cta {
-    padding-top: 135px !important;
-  }
-
   .image-btn {
-    width: 668px;
+    width: 565px;
     height: 138px !important;
   }
 
-  .btn-root {
-    margin-top: 179.5px;
-    margin-bottom: 132.5px;
-  }
-
   .btnBack {
-    width: 668px !important;
+    width: 565px !important;
     height: 138px !important;
     border-radius: 30px !important;
   }
 
   .btn {
-    width: 668px !important;
+    width: 565px !important;
     height: 138px !important;
   }
 
@@ -343,15 +335,9 @@ body {
     height: 322.5px !important;
   }
 
-  .layoutFooter {
-    font-size: 45px !important;
-    max-width: 990px !important;
-  }
-
   .image-logo {
-    padding-top: 100.5px !important;
-    margin-bottom: 45px;
-    width: 449px !important;
+    margin-top: 5px;
+    width: 210px !important;
   }
 
   .text-footer {
@@ -406,16 +392,26 @@ body {
   }
 }
 
-/* @media only screen and (max-width: 768px) {
-  .image-top {
-    width: 80%;
+@media only screen and (max-width: 768px) {
+  .layoutFooter {
+    padding-bottom: 300px;
   }
-} */
+}
 @media only screen and (max-width: 425px) {
   .content-absolute {
     width: 100%;
     margin-top: -11.5px;
     position: absolute !important;
+  }
+  .layoutFooter {
+    padding-bottom: 150px;
+  }
+
+  .text-content-footer {
+    font-size: 24px;
+  }
+  .text-content-sub-footer {
+    font-size: 18px;
   }
 }
 

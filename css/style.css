@@ -1,3 +1,5 @@
+@import url("/css/fontFace.css");
+
 body {
   margin: 0 auto;
   font-family: Roboto;
@@ -79,6 +81,29 @@ body {
 .sub-name-tag {
   margin-right: 6px;
 }
+
+.image-btn {
+  width: 100%;
+  border-radius: 9999px;
+  border-color: #faa904;
+  font-size: 67px;
+  font-weight: 900;
+  color: #fff;
+  background-color: #faa904;
+  font-family: "Supra";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.taga {
+  text-decoration: none;
+}
+
+.text-button {
+  filter: drop-shadow(0.03em 0.03em 0.07em rgba(0, 0, 2, 5));
+}
+
 .text-absolute {
   margin: 0 auto;
   margin-top: 1px;
@@ -216,6 +241,7 @@ body {
 .btn-top {
   z-index: 10;
   position: absolute;
+  width: 100%;
 }
 
 .btn-root:hover .btnBack {
@@ -314,7 +340,7 @@ body {
 
   .image-btn {
     width: 565px;
-    height: 138px !important;
+    height: 128px !important;
   }
 
   .btnBack {
@@ -401,6 +427,13 @@ body {
   .layoutFooter {
     padding-bottom: 300px;
   }
+  .text-button {
+    font-size: 43px;
+  }
+  .logo {
+    margin-top: 0;
+    margin-bottom: 100px;
+  }
 }
 @media only screen and (max-width: 425px) {
   .content-absolute {
@@ -418,10 +451,26 @@ body {
   .text-content-sub-footer {
     font-size: 18px;
   }
+  .text-button {
+    font-size: 23px;
+  }
 }
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 375px) {
   .image-top {
     width: 76%;
+  }
+  .text-button {
+    font-size: 20px;
+  }
+  .logo {
+    margin-top: 0;
+    margin-bottom: 100px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .text-button {
+    font-size: 17px;
   }
 }

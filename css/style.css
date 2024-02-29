@@ -421,6 +421,9 @@ body {
     margin-top: -11.5px;
     position: absolute !important;
   }
+  .text-button {
+    font-size: 43px;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -435,7 +438,9 @@ body {
     margin-bottom: 100px;
   }
 }
-@media only screen and (max-width: 425px) {
+
+
+@media only screen and (max-width: 618px) {
   .content-absolute {
     width: 100%;
     margin-top: -11.5px;

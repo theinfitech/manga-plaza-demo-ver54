@@ -1,4 +1,9 @@
-@import url("/css/fontFace.css");
+@font-face {
+  font-family: "Supra";
+  src: url('./font/Supra\ W03\ BoldRounded.ttf') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
 
 body {
   margin: 0 auto;

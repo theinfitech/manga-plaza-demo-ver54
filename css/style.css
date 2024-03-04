@@ -111,8 +111,8 @@ body {
 }
 
 .child-layout-footer {
-  background-color: #fff;
-  color: #000;
+  background-color: #000;
+  color: #fff;
   padding-top: 20px;
   padding-bottom: 35px;
 }
